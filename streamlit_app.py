@@ -1,4 +1,6 @@
 import streamlit as st
+import sqlite3
+import qrcode
 
 # Database setup
 conn = sqlite3.connect("database.db")
